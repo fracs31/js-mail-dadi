@@ -1,7 +1,7 @@
 let option = prompt("1: per la mail 2: per i dadi"); //opzione
 
 //Mail
-if (option == 1) {
+if (option == "1") {
     let mail = ["emmastone@gmail.com", "tomholland@gmail.com", "bradpitt@gmail.com", "margotrobbie@gmail.com", "sylvesterstallone@gmail.com"]; //array di mail
     let search = prompt("Inserire l'email da cercare: "); //ricerca
     let found = false; //variabile per controllare se la mail è stata trovata 
@@ -25,7 +25,7 @@ if (option == 1) {
 }
 
 //Dadi
-if (option == 2) {
+if (option == "2") {
     let numberPc = Math.floor(Math.random() * (6 - 1 + 1) + 1); //numero casuale tra 1 e 6 del computer
     let numberUser = Math.floor(Math.random() * (6 - 1 + 1) + 1); //numero casuale tra 1 e 6 dell'utente
 
