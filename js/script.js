@@ -11,7 +11,6 @@ if (option == 1) {
 
     //Ciclo
     for (let i = 0; i < mail.length; i++) {
-
         //Se la mail inserita dall'utente è presente nell'array
         if (search == mail[i]) {
             console.log("MAIL TROVATA " + search + " = " + mail[i]); //stampa in console della mail trovata
